@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    font-family: "Rubik", sans-serif;
+}
+
+header {
+    background: #BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 50px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-color: #000000;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transition: scale 1s;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+    transform: scale(1.1);
+}
+
+.produtos li:active {
+    border-color: #088C19;
+}
+
+.produtos h2 {
+    font-size:  30px;
+    font-weight: bold;
+}
+
+.produtp-desc {
+    font-size: 18px;
+}
+
+.produto-preco {
+    font-size:  22px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(../imagens/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+/*==========PAGINA DE CONTATO==========*/
+
+form {
+    margin: 40px;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.in-padrao {
+    display: block;
+    margin-bottom: 25px;
+    padding: 10px 25px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.in-menor {
+    display: flex;
+    margin-bottom: 25px;
+    padding: 10px 25px;
+    width: 6%;
+    border-radius: 10px;
+}
+
+select {
+    width: 110px;
+    padding: 5px 10px;
+    font-size: 0.9em;
+    margin-bottom: 25px;
+}
+.fset {
+    margin-bottom: 25px;
+}
+
+.enviar {
+    width: 12%;
+    padding: 10px 0;
+    background: #313131;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 10pt;
+    margin: 15px 0;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background: #cfcfcf;
+    transform: scale(1.1);
+    color: #313131;
+}
+
+table {
+    margin: 20px 40px;
+}
+
+thead {
+    background: #555555;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 23px;
+}

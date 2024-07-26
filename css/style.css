@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(#FFFFFF, #1e1e1e);
+    font-family: "Rubik", sans-serif;
+}
+header {
+    background: #BBBBBB;
+}
+
+.caixa {
+    margin: 0 auto;
+    position: relative;
+    width: 940px;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 50px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #C78C19;
+    text-decoration: underline;
+}
+
+main {
+    height: 200vh;
+}
+
+#banner {
+	width: 100%;
+    margin: 0 0 100px 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0 0 100px 0;
+}
+
+.txt-just {
+    text-align: justify;
+    width: 25vw;
+    margin: 15px 35px;
+    font-size: 13.5pt;
+}
+
+.titulo-centralizado {
+    text-align: center;
+    margin: 15px 0;
+    padding: 0 0 10px 0;
+}
+
+h2 {
+    font-size: 23pt;
+}
+
+.img-25vw {
+    border-radius: 10px;
+    width: 25vw;
+    box-shadow: #000000 0 10px 10px 0;
+    transition: all 0.7s;
+}
+
+.img-25vw:hover {
+    opacity: 0.4;
+    transform: scale(1.1);
+}
+
+.itens {
+    line-height: 3.5;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "\2704";
+    padding: 3px;
+}
+
+footer {
+    text-align: center;
+    background: url(../imagens/bg.jpg);
+    padding: 40px 0;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin-top: 20px;
+}
