@@ -6,7 +6,7 @@
 
 <p align="center">🚧🚨Still Under Development</p>
 
-<p>to access the project <a href="https://carv-dev.github.io/Barbearia-Alura/">click here</a></p>
+<p>to access the project <a href="https://carv-dev.github.io/Barbearia-Alura/" target="_blank" >click here</a></p>
 
 > ![image](https://github.com/user-attachments/assets/c9834454-8e88-4a9d-91da-4af96d9f6b3a)
 
